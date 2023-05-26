@@ -1,7 +1,3 @@
-const deleteForm = (e) => {
-    e.target.parentNode.remove();
-}
-
 const formIterator = (formElement) => {
     const fieldData = {};
     const formID = formElement.id;
@@ -16,4 +12,4 @@ const formIterator = (formElement) => {
     return fieldData;
 }
 
-export { deleteForm, formIterator }
+export { formIterator }

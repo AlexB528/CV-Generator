@@ -1,23 +1,13 @@
-import React, { Component } from "react";
+import React from 'react';
 import '../styles/style.css';
-import {deleteForm} from './utilities.js';
 
-class SkillForm extends Component {
-    constructor(props) {
-        super (props)
-    }
+const EducationForm = (props) => {
+    return (
+        <form id={props.formID}>
+            <input type="text" id="skillInput" placeholder={props.skillNumber} onChange={props.onInputChange} /><br />
+            <button type="button" onClick={props.onDeleteButtonClicked}>Delete</button>
+        </form>
+    )
+};
 
-    /* Javascript functions can be written here */
-
-    render () {
-        const {onInputChange , formID, skillNumber, onDeleteButtonClicked} = this.props;
-        return (
-            <form id={formID}>
-                <input type="text" id="skillInput" placeholder={skillNumber} onChange={onInputChange} /><br />
-                <button type="button" onClick={onDeleteButtonClicked}>Delete</button>
-            </form>
-        )
-    }
-}
-
-export default SkillForm;
+export default EducationForm;
