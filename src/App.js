@@ -1,15 +1,15 @@
 import React, {useState, useEffect} from 'react';
 import './styles/style.css';
-import PersonalInfoForm from "./components/PersonalInfoForm.js"; // changed to functional component
-import ExperienceForm from "./components/ExperienceForm"; // changed to functional component
-import EducationForm from "./components/EducationForm"; // changed to functional component
-import SkillForm from "./components/SkillForm"; // changed to functional component
-import AddButton from './components/AddButton.js'; // changed to functional component
-import FormattedResume from './components/FormattedResume.js' // changed to functional component
-import ExperienceFormatted from './components/ExperienceFormatted.js' // changed to functional component
-import EducationFormatted from './components/EducationFormatted.js' // changed to functional component
-import PersonalInfoFormatted from './components/PersonalInfoFormatted'; //changed to functional component
-import SkillsFormatted from './components/SkillsFormatted.js'; // changed to functional component
+import PersonalInfoForm from "./components/PersonalInfoForm.js";
+import ExperienceForm from "./components/ExperienceForm";
+import EducationForm from "./components/EducationForm";
+import SkillForm from "./components/SkillForm";
+import AddButton from './components/AddButton.js';
+import FormattedResume from './components/FormattedResume.js'
+import ExperienceFormatted from './components/ExperienceFormatted.js'
+import EducationFormatted from './components/EducationFormatted.js'
+import PersonalInfoFormatted from './components/PersonalInfoFormatted'
+import SkillsFormatted from './components/SkillsFormatted.js'
 import {formIterator} from './components/utilities.js'
 
 const App = () => {
