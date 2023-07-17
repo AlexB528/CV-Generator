@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/styleCV.css';
+import '../styles/style.css';
 
 const FormattedResume = (props) => {
     return (
